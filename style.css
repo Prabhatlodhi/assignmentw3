@@ -1,0 +1,788 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Navbar starts here */
+/* General Class Start*/
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  border: 1px solid red;
+}
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 1px 1px 4px black;
+}
+
+/* General Class End*/
+
+.w3logo {
+  width: 70px;
+  height: 70px;
+  margin: px;
+  /* border: 1px solid red; */
+}
+
+.nav_bar {
+  justify-content: space-between;
+}
+
+.nav_button {
+  width: 110px;
+  height: 70px;
+  align-items: center;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: white;
+  /* margin-left: 5px; */
+  /* align-content: center; */
+}
+
+.nav_button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.right_button {
+  width: 141px;
+  /* height: 53px; */
+  padding: 13px;
+  margin: 0px 9px;
+  border: none;
+}
+
+.icon {
+  margin-right: 10px;
+  padding: 7px;
+  margin: 0px;
+}
+
+.pro {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 65px;
+  border-radius: 40px;
+}
+
+.get_certified {
+  background-color: #ffc0c7;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+.free_website {
+  background-color: #fff4a3;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+.log_in {
+  background-color: #04aa6d;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+/* Navbar end here */
+
+/* Section One learn to code start here */
+
+.section_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: #282a35;
+  color: white;
+  /* height: 700px; */
+}
+
+.section_one_heading {
+  font-size: 80px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.section_one_para {
+  font-size: 25px;
+  margin: 20px;
+  color: #e4c0c7;
+}
+
+.search_bar {
+  width: 410px;
+  height: 47px;
+  /* margin: 20px; */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+}
+.searchicon {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #04aa6d;
+  width: 85px;
+  height: 47px;
+  padding: 12px 25px;
+}
+
+.search_box_combine {
+  margin-bottom: 25px;
+}
+
+.section_one_wave {
+  width: 100%;
+  float: left;
+}
+
+.section_one_anchor {
+  color: white;
+  font-size: 25px;
+}
+
+.section_one_anchor:hover {
+  color: #04aa6d;
+}
+/* Section One learn to code end here */
+/* Section two-HTML learn to code start here  */
+
+.section_two,
+.section_three,
+.section_four,
+.section_five,
+.section_six {
+  background-color: #d9eee1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 51px 10px;
+}
+
+.left_box {
+  height: 450px;
+  width: 600px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.main_heading {
+  font-size: 90px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+}
+
+.main_para {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.left_box_button {
+  width: 190px;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 10px;
+  /* text-size-adjust: 10px; */
+}
+.left_box_button1 {
+  background-color: #d9eee1;
+}
+
+.learn {
+  color: white;
+  background-color: #04aa6d;
+}
+
+.video {
+  background-color: #fff4a3;
+}
+.reference {
+  background-color: #282a35;
+  color: white;
+}
+
+.certified {
+  background-color: #ffc0c7;
+}
+
+.right_box img {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 10px;
+}
+/* Section two-HTML learn to code end here  */
+/* Section THREE-HTML learn to code end here  */
+
+.left_box_sql {
+  /* height: 450px; */
+  width: 600px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
+  padding: 35px 0px;
+}
+.section_three {
+  background-color: #fff4a3;
+}
+
+.section_four {
+  background-color: #282a35;
+}
+
+.section_five {
+  background-color: #f3ecea;
+}
+
+.section_six {
+  background-color: #96d4d4;
+}
+/* Section THREE-HTML learn to code end here  */
+/* Black background rectangular box start here */
+
+.black_box {
+  background-color: #282a35;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main_rect {
+  background-color: #04aa6d;
+  width: 42vw;
+  height: 250px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 58px;
+}
+
+.main_heading_rect {
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+}
+.main_para_rect {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rect_button {
+  width: 180px;
+  height: 45px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #000000;
+  font-weight: bold;
+  color: white;
+}
+
+.query {
+  background-color: #fff4a3;
+}
+
+.java {
+  background-color: #f3ecea;
+}
+.cpp {
+  background-color: #d9eee1;
+}
+
+.bootstarp {
+  background-color: #e7e9eb;
+}
+/* Black background rectangular box end here   */
+/* Black background small rectangular box start here */
+.block_one {
+  background-color: #04aa6d;
+  width: 42vw;
+  height: 95px;
+  border-radius: 10px;
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 10px auto;
+}
+
+.block_one_top {
+  background-color: #282a35;
+  width: 42vw;
+  height: 95px;
+  border-radius: 10px;
+  color: white;
+  /* padding-top: 20px; */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 10px auto;
+  justify-content: space-between;
+}
+
+.block_one1 {
+  background-color: #04aa6d;
+  width: 19vw;
+  height: 95px;
+  border-radius: 10px;
+  padding-top: 25px;
+  color: black;
+}
+.block_one2 {
+  background-color: #e4c0c7;
+  width: 19vw;
+  height: 95px;
+  border-radius: 10px;
+  padding-top: 25px;
+  color: black;
+}
+
+.blocksmall {
+  background-color: #04aa6d;
+  width: 15vw;
+  height: 75px;
+  border-radius: 10px;
+  color: white;
+  padding-top: 20px;
+  /* text-align: center; */
+  margin-top: 50px;
+  font-size: 30px;
+  /* padding: 10px auto; */
+}
+
+.small_box {
+  justify-content: space-around;
+}
+
+.small_tab {
+  width: 20vw;
+  height: 75px;
+  background-color: #d9eee1;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 10px auto;
+}
+
+.aa {
+  width: 42vw;
+  background-color: white;
+}
+
+.ll {
+  justify-content: space-around;
+}
+
+.ff {
+  background-color: rgb(201, 27, 27);
+}
+
+.col1 {
+  background-color: #e9b0b8;
+  color: black;
+}
+
+.col2 {
+  background-color: #f3ecea;
+  color: black;
+}
+.col3 {
+  background-color: #d9eee1;
+  color: black;
+}
+
+.col4 {
+  background-color: #ded8d7;
+  color: black;
+}
+
+.col5 {
+  background-color: #d9eee1;
+  color: black;
+}
+
+/* Black background small rectangular box end here */
+/* Code Editor */
+.code_editor {
+  background-color: #282a35;
+  padding: 40px;
+}
+
+.code_head {
+  text-align: center;
+  padding: 50px;
+}
+
+.code_head h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.code_head p {
+  font-size: 25px;
+  color: white;
+}
+
+.gif_image {
+  width: 100%;
+  text-align: center;
+}
+
+.gif_image img {
+  /* text-align: center; */
+}
+
+.button_last {
+  width: 66%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.button_last button {
+  height: 42px;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 5px;
+}
+
+#try {
+  background-color: #d6db8a;
+  color: black;
+}
+/* Code editor end here */
+
+/* W3 School Spaces Start here  */
+.workspace {
+  text-align: center;
+
+  padding: 50px;
+  background-image: url(./studentopa.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* opacity: 0.5; */
+}
+
+ 
+.workspace > * {
+  /* opacity: 1; */
+}
+
+.school_space {
+  /* background-color: #000000; */
+  /* opacity: 0.5; */
+  /* background-color: #F3ECSA; */
+}
+
+.background_image {
+  /* opacity: 0.5; */
+  /* float: left; */
+}
+
+.get_started {
+  margin: 20px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.get_started_work_space {
+  margin: 20px;
+  border: none;
+  width: 300px;
+  height: 60px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 40px;
+  font-size: 25px;
+}
+
+.workspace h1 {
+  font-size: 70px;
+  color: white;
+  padding-top: 50px;
+}
+
+.workspace p {
+  font-size: 30px;
+  color: white;
+}
+/* W3 School Spaces end here  */
+/* Color picker start here  */
+.color_picker {
+  text-align: center;
+  background-color: #f3ecea;
+  padding: 50px;
+}
+.color_picker h1 {
+  font-size: 95px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px black;
+}
+
+.color_picker p {
+  font-size: 25px;
+}
+
+/* Color picker end here  */
+/* Code Game start here */
+
+.code_game {
+  background-color: #96d4d4;
+  padding: 40px;
+  text-align: center;
+  padding: 80px 0px;
+}
+.code_game h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: "Freckle Face";
+}
+
+.code_game p {
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: "Freckle Face";
+}
+/* Code Game end here */
+
+/* Exercise and Quizess start here  */
+
+.exercises {
+  background-image: url(./bgcodeimage.png);
+  /* background-position: fixed; */
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  /* background-repeat: no-repeat;  */
+  text-align: center;
+  padding: 90px 0px;
+
+  color: white;
+  /* position: relative; */
+  /* height: 500px; */
+}
+
+.exer_button {
+  /* width: 82%; */
+  /* margin: 0 auto; */
+}
+
+.exercises h1 {
+  font-size: 80px;
+}
+
+.exercises p {
+  font-size: 30px;
+}
+
+.exer_button {
+  margin: 30px;
+}
+
+.exer {
+  height: 220px;
+  width: 40vw;
+  font-size: 40px;
+  margin: 25px;
+  border: none;
+  background-color: #d6db8a;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  /* margin: 0 auto; */
+}
+
+.quiz {
+  height: 220px;
+  width: 40vw;
+  font-size: 40px;
+  margin: 25px;
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Exercise and Quizess end here  */
+/* web Template section start here */
+
+.web_templates {
+  text-align: center;
+  padding: 60px;
+  /* width: 100vw; */
+}
+
+.web_templates h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+.web_templates p {
+  font-size: 25px;
+  padding: 25px;
+}
+
+.browse_btn {
+  background-color: #282a35;
+  color: white;
+  width: 750px;
+  height: 50px;
+  border-radius: 25px;
+  /* padding: 25px; */
+  font-size: 15px;
+  margin: 18px;
+  border: none;
+}
+
+.web_image_one {
+  width: 1100px;
+}
+
+/* web Template section end here */
+/* Kickstart section start from here */
+.kickstart {
+  background-color: #282a35;
+  padding: 35px;
+  position: relative;
+  height: 400px;
+}
+
+.kickstart h1 {
+  color: #e4c0c7;
+  font-size: 65px;
+  padding: 20px;
+}
+
+.kickstart p {
+  color: #e4c0c7;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.circle {
+  position: absolute;
+  right: 190px;
+  top: 214px;
+
+  /* bottom: 1px; */
+}
+/* Kickstart section end from here */
+
+/* Learn how section start from here */
+
+.how_to {
+  text-align: center;
+  padding: 50px;
+}
+.how_to_button {
+  width: 350px;
+  height: 42px;
+  background-color: #282a35;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.how_to_button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.how_to h1 {
+  font-size: 55px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  padding: 17px;
+}
+
+.how_to h3 {
+  font-size: 22px;
+  padding: 17px;
+}
+
+.paralearn {
+  padding: 22px;
+}
+
+/* Learn how section end from here */
+/* Footer section start from here */
+
+footer {
+  background-color: #282a35;
+  width: 100%;
+}
+.footer_btn {
+  /* text-align: justify; */
+}
+.footer_link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #282a35;
+}
+
+.first_div {
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer_btn {
+  /* margin: 40px; */
+}
+
+.ind_btn {
+  padding: 8px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 37px;
+}
+
+.all_icon {
+  text-align: end;
+  /* margin: 10px; */
+}
+.iconone {
+  margin-right: 25px;
+}
+.theory {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.theory p {
+  padding: 30px;
+}
+/* Footer section end from here */
